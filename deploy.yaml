@@ -22,7 +22,7 @@ spec:
         app: az-dns-forwarder
     spec:
       containers:
-        - image: ghcr.io/golubiev-ievgen/az-dns-forwarder@sha256:4f571123fd503afac8b71d4b35f5b02f7f36aa3a25370fcce73863e8aee4d165
+        - image: ghcr.io/golubiev-ievgen/az-dns-forwarder/az-dns-forwarder:latest
           name: bind
           ports:
           - containerPort: 53
